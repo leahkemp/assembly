@@ -41,9 +41,7 @@
 
 ## Introduction
 
-Assembly pipeline used in the [Seattle Flu Study](https://seattleflu.org/) to build consensus genomes for sequenced samples.
-
-Adapted from Louise Moncla's [Illumina pipline](https://github.com/lmoncla/illumina_pipeline) for influenza snp calling and [seattleflu/assembly])https://github.com/seattleflu/assembly)
+Adapted from Louise Moncla's [Illumina pipline](https://github.com/lmoncla/illumina_pipeline) for influenza snp calling and [seattleflu/assembly](https://github.com/seattleflu/assembly)
 
 ## Prerequisites
 
