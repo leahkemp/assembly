@@ -1,6 +1,8 @@
 {
   "fastq_directory" :
     "test_data",
+  "fastq_pooling":
+    "pooled",
   "reference_viruses" :
     {
       "all_refs" : {}
