@@ -35,7 +35,7 @@
     - [16. FASTA headers](#16-fasta-headers)
     - [17. Aggregate](#17-aggregate)
     - [Clean](#clean)
-  - [Advanced Steps](#advanced-steps)
+  - [Advanced Steps (*not currently supported*)](#advanced-steps-not-currently-supported)
     - [Upload to id3c](#upload-to-id3c)
       - [Send Slack alerts on failed uploads](#send-slack-alerts-on-failed-uploads)
 
@@ -185,7 +185,7 @@ __Note__: Remember to add the path of the output file to the config file after r
 Currently, `config/config-flu-only.json` has the most updated version of the configuration needed to run assembly.
 
 * `fastq_directory`: the path to the directory containing the fastq files
-* `not_pooled`: an object specifying whether or not the input fastq files are lane merged or not lane-merged, takes either `pooled` or `not_pooled`
+* `not_pooled`: an object specifying whether or not the input fastq files are lane merged or not lane-merged, takes either `"pooled"` or `"not_pooled"`
 * `ignored_samples`: an object containing keys that specify samples to be ignored
 * `sample_reference_pairs`: an object containing specific sample/reference pairs, with the keys refering to the samples and an array of references as the values.
 * `barcode_match`: the path to the file containing tab-delimited key-value pairs used to replace NWGC sample IDs with SFS UUIDs
@@ -355,7 +355,7 @@ The input of this rule differs based on the result of the checkpoint, so this ru
 
 Deletes all of the intermediate directories and files generated from running the pipeline. The only one that it does not delete is the `consensus_genome` directory.
 
-## Advanced Steps
+## Advanced Steps (*not currently supported*)
 
 ### Upload to id3c
 
