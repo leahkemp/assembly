@@ -43,6 +43,10 @@
 
 Adapted from Louise Moncla's [Illumina pipline](https://github.com/lmoncla/illumina_pipeline) for influenza snp calling and [seattleflu/assembly](https://github.com/seattleflu/assembly)
 
+## Workflow
+
+![rulegraph_1](rulegraph_1.png)
+
 ## Prerequisites
 
 - [Conda install](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html)
