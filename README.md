@@ -195,6 +195,14 @@ Currently, `config/config-flu-only.json` has the most updated version of the con
 
 ## Dryrun
 
+Snakemake commands need to be run from the pipeline directory. Move to the pipeline directory, for example:
+
+```bash
+cd /home/leah/assembly/
+```
+
+Run a dryrun
+
 ```bash
 snakemake --configfile config/config-flu-only.json -k -j 16 -n
 ```
@@ -238,6 +246,12 @@ This was a dry-run (flag -n). The order of jobs does not reflect the order of ex
 ```
 
 ## Full run
+
+Again make sure you're in the pipeline directory, for example:
+
+```bash
+cd /home/leah/assembly/
+```
 
 ### Local
 
